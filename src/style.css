@@ -4,35 +4,16 @@
   }
 
 html {
-    background-color: #1e1e2e;
+    background-color: #313244;
     text-align: center;
-    color: white;
-}
-
-#uv-address {
-  background-color: transparent;
-  border-radius: 50px;
-  font-family: "Figtree";
-  border: none;
-  text-align: center;
-  padding: 10px;
-  color: white;
-}
-
-#proxyFrame {
-  width: 100%;
-  height: 100%;
-  border: none;
-  display: none;
+    color: #cdd6f4;
 }
 
 h1,h2,h3,h4 {
-  color: white;
   font-family: "Figtree";
 }
 
-p {
-  color: white;
+p #title {
   font-size: 12px;
   font-family: "Figtree";
 }
@@ -41,11 +22,17 @@ p:hover {
   text-decoration: underline;
 }
 
-#img {
-  width: 24px;
-  height: 24px;
+#easier {
+  font-size: 2vw;
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: rainbow 3s linear infinite;
 }
 
-#img:hover {
-  filter: invert(.6);
+@keyframes rainbow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
