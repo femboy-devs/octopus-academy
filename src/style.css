@@ -26,6 +26,7 @@ p:hover {
   background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
   background-size: 400%;
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   animation: rainbow 3s linear infinite;
 }
