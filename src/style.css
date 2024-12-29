@@ -12,11 +12,13 @@ html {
 
 h1,h2,h3,h4 {
   font-family: "Figtree";
+    text-align: center;
 }
 
 p {
   font-size: 12px;
   font-family: "Figtree";
+  text-align: center;
 }
 
 #easier {
@@ -36,9 +38,14 @@ button {
   border: 2px solid white;
   text-align: center;
   color: #cdd6f4;
+transition: .1s;
+margin: 15px;
 }
 
 button:hover {
-  transform: scale(1.1);
+  transform: scale(1.1);   
+  margin: 16.5px;
   transition: .2s;
 }
+
+
