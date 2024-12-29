@@ -6,6 +6,8 @@
 html {
     background-color: #313244;
     color: #cdd6f4;
+    align-items: center;
+    text-align: center;
 }
 
 h1,h2,h3,h4 {
@@ -29,9 +31,11 @@ button {
  padding-right: 30px;
  padding-top: 20px;
  padding-bottom: 20px;
+ padding: 10px 20px;
   font-family: "Figtree";
-  font-size: 20px;
   border: 2px solid white;
+  text-align: center;
+  color: #cdd6f4;
 }
 
 button:hover {
