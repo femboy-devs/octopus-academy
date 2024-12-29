@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Figtree;
+    src: url(/src/Figtree-Regular.ttf);
+  }
+
+html {
+    background-color: #1e1e2e;
+    text-align: center;
+    color: white;
+}
