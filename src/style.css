@@ -8,3 +8,44 @@ html {
     text-align: center;
     color: white;
 }
+
+#uv-address {
+  background-color: transparent;
+  border-radius: 50px;
+  font-family: "Figtree";
+  border: none;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+#proxyFrame {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: none;
+}
+
+h1,h2,h3,h4 {
+  color: white;
+  font-family: "Figtree";
+}
+
+p {
+  color: white;
+  font-size: 12px;
+  font-family: "Figtree";
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+#img {
+  width: 24px;
+  height: 24px;
+}
+
+#img:hover {
+  filter: invert(.6);
+}
