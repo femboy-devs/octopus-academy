@@ -17,22 +17,25 @@ p {
   font-family: "Figtree";
 }
 
-p:hover {
+#easier {
+  font-size: 12px;
   text-decoration: underline;
 }
 
-#easier {
-  font-size: 12px;
-  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
-  background-size: 400%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: rainbow 3s linear infinite;
+button {
+    background-color: #181825;
+     border-radius: 8px;
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+   color: white;
+  font-family: "Figtree";
+  font-size: 20px;
+  border: 2px solid white;
 }
 
-@keyframes rainbow {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+button:hover {
+  transform: scale(1.1);
+  transition: .2s;
 }
