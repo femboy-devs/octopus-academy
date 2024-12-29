@@ -41,6 +41,7 @@ button {
   color: #cdd6f4;
 transition: .2s;
 margin: 15px;
+    width: 150px;
 }
 
 button:hover {
