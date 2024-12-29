@@ -13,6 +13,11 @@ html {
 body {
   margin: 0px;
   padding: 0px;
+  background-color: #181825;
+  font-family: figtree;
+  color: #cdd6f4;
+  text-align: center;
+  font-size: 26px;
 }
 
 h1,h2,h3,h4 {
