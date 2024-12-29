@@ -8,10 +8,6 @@ const form = document.getElementById("uv-form");
  */
 const address = document.getElementById("uv-address");
 /**
- * @type {HTMLInputElement}
- */
-const searchEngine = document.getElementById("uv-search-engine");
-/**
  * @type {HTMLParagraphElement}
  */
 const error = document.getElementById("uv-error");
@@ -31,6 +27,6 @@ form.addEventListener("submit", async (event) => {
     throw err;
   }
 
-  const url = search(address.value, searchEngine.value);
+  const url = search(address.value, address.dataset.engine);
   location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
 });
