@@ -91,6 +91,8 @@ width: 200px;
   gap: 20px;
   align-items: center;
   border: 3px solid #1e1e2e;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 #card button {
