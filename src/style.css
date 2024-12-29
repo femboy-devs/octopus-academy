@@ -5,7 +5,6 @@
 
 html {
     background-color: #313244;
-    text-align: center;
     color: #cdd6f4;
 }
 
@@ -13,7 +12,7 @@ h1,h2,h3,h4 {
   font-family: "Figtree";
 }
 
-p #title {
+p {
   font-size: 12px;
   font-family: "Figtree";
 }
@@ -27,7 +26,6 @@ p:hover {
   background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
   background-size: 400%;
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   animation: rainbow 3s linear infinite;
 }
