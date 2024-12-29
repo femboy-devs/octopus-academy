@@ -1,109 +1,123 @@
 @font-face {
-    font-family: "Figtree";
-    src: url("/src/Figtree-Regular.ttf?#iefix");
-  }
+  font-family: "Figtree";
+  src: url("/src/Figtree-Regular.ttf?#iefix");
+}
 
 html {
-    background-color: #313244;
-    color: #cdd6f4;
-    align-items: center;
-    text-align: center;
+  background-color: #313244;
+  color: #cdd6f4;
+  align-items: center;
+  text-align: center;
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 h1,h2,h3,h4 {
-  font-family: "Figtree";
-    text-align: center;
+font-family: "Figtree";
+  text-align: center;
 }
 
 p {
-  font-size: 12px;
-  font-family: "Figtree";
-  text-align: center;
+font-size: 12px;
+font-family: "Figtree";
+text-align: center;
 }
 
 #headr {
-    background-color: #181825;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    width: 100%;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    border-bottom: 3px solid #1e1e2e;
-    border-top: 3px solid #1e1e2e;
-    height: 100%;
-    top: 0;
+  background-color: #181825;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  width: 100%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 3px solid #1e1e2e;
+  border-top: 3px solid #1e1e2e;
+  height: 100%;
+  top: 0;
 }
 
 #easier {
-  font-size: 12px;
-  text-decoration: underline;
+font-size: 12px;
+text-decoration: underline;
 }
 
 button {
-    background-color: #181825;
-     border-radius: 8px;
- padding: 10px 20px;
-  font-family: "Figtree";
-  border: 2px solid white;
-  text-align: center;
-  color: #cdd6f4;
+  background-color: #181825;
+   border-radius: 8px;
+padding: 10px 20px;
+font-family: "Figtree";
+border: 2px solid white;
+text-align: center;
+color: #cdd6f4;
 transition: .2s;
 margin: 15px;
-    width: 150px;
+  width: 150px;
 }
 
 button:hover {
-  transform: scale(1.1);   
-  margin: 15px;
-  transition: .2s;
-  font-weight: bold;
+transform: scale(1.1);   
+margin: 15px;
+transition: .2s;
+font-weight: bold;
 }
 
 
 #title {
-  font-size: 2vw;
-  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
-  background-size: 400%;
-  -webkit-background-clip: text;
-  color: transparent;
-  animation: rainbow 3s linear infinite;
+background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+background-size: 400%;
+-webkit-background-clip: text;
+color: transparent;
+animation: rainbow 3s linear infinite;
 }
 
 @keyframes rainbow {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
 }
 
 #card {
-  width: 80%;
-  border-radius: 16px;
-  background-color: #181825;
+width: 200px;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  background-color:#181825;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+  gap: 20px;
 }
 
 #card button {
-  background-color: rgb(51, 95, 255);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background-color: rgb(51, 95, 255);
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+margin: 10 20px;
 }
 
 #frame {
-  border: none;
-  width: 1080px;
-  height: 1920px;
+border: none;
+width: 1080px;
+height: 1920px;
 }
 
 #slash {
-  opacity: 0.6;
-  margin-left: 17px;
+opacity: 0.6;
+margin-left: 17px;
 }
 
 #fixed {
-  float: left;
-  font-size: 16px;
+float: left;
+font-size: 16px;
+}
+
+#card img {
+width: 50%;
+height: 50%;
+border-radius: 25px;
+align-content: center;
+margin-top: 10px;
 }
