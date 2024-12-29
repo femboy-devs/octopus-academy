@@ -36,6 +36,9 @@ p {
     padding-top: 5px;
     border-bottom: 3px solid #1e1e2e;
     height: 100%;
+    top: 0;
+    position: sticky;
+    z-index: 1000;
 }
 
 #easier {
