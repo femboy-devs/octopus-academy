@@ -1,6 +1,6 @@
 @font-face {
     font-family: Figtree;
-    src: url(/src/Figtree-Regular.ttf);
+    src: url('/src/Figtree-Regular.ttf');
   }
 
 html {
