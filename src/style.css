@@ -41,16 +41,12 @@ text-align: center;
 }
 
 button {
-  background-color: #181825;
-   border-radius: 8px;
-padding: 10px 20px;
-font-family: "Figtree";
-border: 2px solid white;
-text-align: center;
-color: #cdd6f4;
-transition: .2s;
-margin: 15px;
-  width: 150px;
+    background-color: #313244;
+    color: #cdd6f4;
+    border: none;
+    font-size: 22px;
+    padding: 14px;
+    border-radius: 5vw;
 }
 
 button:hover {
@@ -125,4 +121,31 @@ margin-top: 10px;
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
+}
+
+.header {
+    background-color: #1e1e2e;
+    position: absolute;
+    left: 50%;
+    top: 7.5%;
+    transform: translateX(-50%);
+    width: 70vw;
+    height: 15vh;
+    text-align: center;
+    border-radius: 5vw;
+    font-size: 36px;
+}
+.sub {
+    font-size: 22px;
+}
+.main {
+    background-color: #1e1e2e;
+    width: 70vw;
+    height: 60vh;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    border-radius: 5vw;
+    line-height: 52px;
 }
