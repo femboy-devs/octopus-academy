@@ -45,11 +45,6 @@ p {
   text-decoration: underline;
 }
 
-#build {
-    font-size: 5px;
-    color: #303149;
-}
-
 button {
     background-color: #181825;
      border-radius: 8px;
