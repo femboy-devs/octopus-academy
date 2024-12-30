@@ -18,6 +18,10 @@ body {
   font-size: 26px;
 }
 
+#easier {
+  color: #cba6f7;
+}
+
 h1,h2,h3,h4 {
 font-family: "Figtree";
   text-align: center;
