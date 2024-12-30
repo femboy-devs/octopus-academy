@@ -18,10 +18,6 @@ body {
   font-size: 26px;
 }
 
-#headr {
-    font-size:36px;
-}
-
 #easier {
   color: #cba6f7;
 }
@@ -37,6 +33,13 @@ font-family: "Figtree";
 text-align: center;
 }
 
+#headr {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
 button {
     background-color: #313244;
     color: #cdd6f4;
@@ -45,7 +48,7 @@ button {
     padding: 14px;
     border-radius: 4vw;
     transition: .2s;
-    width: 250px;
+    width: 200px;
     margin-bottom: 10px;
   
 }
@@ -82,7 +85,7 @@ width: 200px;
   background-color:#181825;
   transition: background-color 0.3s ease;
   border-radius: 20px;
-  gap: 20px;
+  margin-left: 10px;
   align-items: center;
   border: 3px solid #1e1e2e;
   margin-left:auto;
@@ -94,7 +97,7 @@ background-color: #585b70;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 text-align: center;
 margin: 10 20px;
-border: 2px solid #9399b2;
+margin-top: 10px;
 }
 
 #frame {
@@ -137,9 +140,7 @@ margin-top: 10px;
     height: 15vh;
     text-align: center;
     border-radius: 5vw;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
+    font-size: 36px;
 }
 .sub {
     font-size: 22px;
