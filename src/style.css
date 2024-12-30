@@ -18,6 +18,10 @@ body {
   font-size: 26px;
 }
 
+#headr {
+    font-size:36px;
+}
+
 #easier {
   color: #cba6f7;
 }
@@ -31,13 +35,6 @@ p {
 font-size: 12px;
 font-family: "Figtree";
 text-align: center;
-}
-
-#headr {
-  padding-bottom: 5px;
-  padding-top: 5px;
-  font-weight: bold;
-  text-align: center;
 }
 
 button {
@@ -140,7 +137,9 @@ margin-top: 10px;
     height: 15vh;
     text-align: center;
     border-radius: 5vw;
-    font-size: 36px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
 }
 .sub {
     font-size: 22px;
