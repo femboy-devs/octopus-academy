@@ -50,31 +50,14 @@ button {
     transition: .2s;
     width: 200px;
     margin-bottom: 10px;
-  
+    margin-left: 20px;
 }
 
 button:hover {
-transform: scale(1.08);   
-margin-top: 0px;
-margin-left: 0px;
-margin-right: 0px;
+transform: scale(1.08);
 margin-bottom: 10px;
 transition: .2s;
 font-weight: bold;
-}
-
-#title {
-background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
-background-size: 400%;
--webkit-background-clip: text;
-color: transparent;
-animation: rainbow 3s linear infinite;
-}
-
-@keyframes rainbow {
-0% { background-position: 0% 50%; }
-50% { background-position: 100% 50%; }
-100% { background-position: 0% 50%; }
 }
 
 #card {
