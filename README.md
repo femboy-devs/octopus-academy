@@ -3,7 +3,7 @@
 
 ## contributors
 octopus academy has had major contributions by the following:
-\- [molkify](https://github.com/molkify)
-\- [expiredwarranty](https://github.com/ExpiredWarranty)
-\- [bearcattt](https://github.com/bearcattt)
-\- [imightb3sick](https://github.com/imightb3sick)
+\- [molkify](https://github.com/molkify)  
+\- [expiredwarranty](https://github.com/ExpiredWarranty)  
+\- [bearcattt](https://github.com/bearcattt)  
+\- [imightb3sick](https://github.com/imightb3sick)  
