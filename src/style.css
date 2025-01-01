@@ -139,3 +139,11 @@ margin-top: 10px;
     border-radius: 5vw;
     line-height: 52px;
 }
+
+#madewithlove {
+  opacity: .4;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+}
