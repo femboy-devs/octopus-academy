@@ -1,13 +1,13 @@
 {
-    "name": "femboy-web",
-    "short_name": "femboyweb",
+    "name": "octopus Academy",
+    "short_name": "octopus Academy",
     "start_url": "/mobile/index.html",
     "display": "standalone",
     "background_color": "#221F30",
     "theme_color": "#221F30",
     "icons": [
       {
-        "src": "femboy-web.-2.png",
+        "src": "favicon.png",
         "sizes": "256x256",
         "type": "image/png"
       }

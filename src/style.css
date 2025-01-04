@@ -47,17 +47,18 @@ button {
     font-size: 22px;
     padding: 14px;
     border-radius: 4vw;
-    transition: .2s;
+    transition: transform .2s, background-color .2s, color .2s;
     width: 200px;
     margin-bottom: 10px;
     margin-left: 20px;
+    display: inline-block;
+    text-align: center;
 }
 
 button:hover {
-transform: scale(1.08);
-margin-bottom: 10px;
-transition: .2s;
-font-weight: bold;
+    transform: scale(1.08);
+    background-color: #cba6f7;
+    color: #313244;
 }
 
 #card {
