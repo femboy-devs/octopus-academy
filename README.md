@@ -1,5 +1,5 @@
 # octopus academy
-**octopus academy** is a games site developed by the [femboy-devs](https://github.com/femboy-devs) team, consisting of bearcat, molkify, liability and maple. 
+**octopus academy** is a games site developed by the [femboy-devs](https://github.com/femboy-devs) team, consisting of molkify, liability and maple. 
 
 ## contributors
 octopus academy has had major contributions by the following:  
